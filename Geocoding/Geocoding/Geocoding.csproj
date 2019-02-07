@@ -7,8 +7,8 @@
     <ProjectGuid>{84054B67-FC74-4A76-99CF-C4FBAF3BC267}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Geocoder</RootNamespace>
-    <AssemblyName>Geocoder</AssemblyName>
+    <RootNamespace>Geocoding</RootNamespace>
+    <AssemblyName>Geocoding</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

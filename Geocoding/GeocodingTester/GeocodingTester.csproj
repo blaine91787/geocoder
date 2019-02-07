@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B83E981E-735A-4733-984A-3D5D6A39B803}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GeocoderTester</RootNamespace>
-    <AssemblyName>GeocoderTester</AssemblyName>
+    <RootNamespace>GeocodingTester</RootNamespace>
+    <AssemblyName>GeocodingTester</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,7 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Geocoder">
-      <HintPath>..\Geocoder\bin\x64\Debug\Geocoder.dll</HintPath>
+      <HintPath>..\Geocoding\bin\x64\Debug\Geocoder.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

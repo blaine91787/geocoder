@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geocoding", "Geocoder\Geocoding.csproj", "{84054B67-FC74-4A76-99CF-C4FBAF3BC267}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geocoding", "Geocoding\Geocoding.csproj", "{84054B67-FC74-4A76-99CF-C4FBAF3BC267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeocoderTester", "GeocoderTester\GeocoderTester.csproj", "{B83E981E-735A-4733-984A-3D5D6A39B803}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeocodingTester", "GeocodingTester\GeocodingTester.csproj", "{B83E981E-735A-4733-984A-3D5D6A39B803}"
 	ProjectSection(ProjectDependencies) = postProject
 		{84054B67-FC74-4A76-99CF-C4FBAF3BC267} = {84054B67-FC74-4A76-99CF-C4FBAF3BC267}
 	EndProjectSection

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeocoderTester
+namespace GeocodingTester
 {
     class Program
     {
