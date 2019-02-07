@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geocoding", "Geocoder\Geocoding.csproj", "{84054B67-FC74-4A76-99CF-C4FBAF3BC267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeocoderTester", "GeocoderTester\GeocoderTester.csproj", "{B83E981E-735A-4733-984A-3D5D6A39B803}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267} = {84054B67-FC74-4A76-99CF-C4FBAF3BC267}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Debug|x64.ActiveCfg = Debug|x64
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Debug|x64.Build.0 = Debug|x64
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Release|x64.ActiveCfg = Release|x64
+		{84054B67-FC74-4A76-99CF-C4FBAF3BC267}.Release|x64.Build.0 = Release|x64
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Debug|x64.ActiveCfg = Debug|x64
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Debug|x64.Build.0 = Debug|x64
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Release|x64.ActiveCfg = Release|x64
+		{B83E981E-735A-4733-984A-3D5D6A39B803}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0403E564-7A16-404F-9DFE-29FAF24B349E}
+	EndGlobalSection
+EndGlobal
